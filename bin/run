@@ -14,4 +14,5 @@ puts Song.find_by_name("Hello")
 
 songs = DB[:conn].execute("SELECT * FROM songs")
 
+puts "songs"
 puts songs
